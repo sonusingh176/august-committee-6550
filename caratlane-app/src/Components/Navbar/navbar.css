@@ -1,0 +1,26 @@
+/* .top-patty{
+    width:"100%";
+    height:"30px" ;
+    background-color:"#231535";
+} */
+
+.btn-outline-success{
+    background: linear-gradient(to right,#de57e5 0%,#8863fb 100%);
+    margin-left: -7px;
+}
+
+.navtxt{
+    font-size:13px;
+    color: #8863fb;
+}
+
+.me-2{
+    width: 50%;
+    
+}
+
+.form-control{
+    margin-left: 3px;
+
+}
+
