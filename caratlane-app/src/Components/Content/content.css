@@ -1,0 +1,116 @@
+.container{
+    display: flex;
+}
+
+.img-container{
+    width: 50px;
+    height: 100px;
+}
+
+.main{
+    width:100%;
+    /* border: 2px solid red; */
+    margin: auto;
+    padding: 10px;
+    display: grid;
+    /* grid-template-columns: auto auto auto; */
+     grid-template-columns:repeat(3,1fr); 
+    grid-template-rows: repeat(2,1fr);
+    
+    grid-gap:20px 20px;
+}
+.main div{
+    background: aqua;
+    border: 1px solid bisque;
+}
+.item1{
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.item2{
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+.item3{
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+.banner{
+    width: 100%;
+    height: 100%;
+}
+/* --------------------------------------------- */
+
+.prodContain{
+    margin: auto;
+    padding: 10px;
+    display: grid;
+    grid-template-columns:repeat(3,1fr); 
+    grid-gap:20px 20px;
+       /* grid-template-rows: repeat(2,1fr); */
+
+}
+
+.collection{
+    margin-top: 80px;
+
+}
+
+.mogradiv{
+    position: relative;
+    bottom: 31px;
+
+}
+
+.mogradiv :hover{
+    transition: transform 0.3s ease-in-out 0s;
+    transform: scale(0.9);
+
+}
+
+.borladiv :hover{
+    transition: transform 0.3s ease-in-out 0s;
+    transform: scale(0.9);
+
+
+}
+
+.harmonydiv :hover{
+    transition: transform 0.3s ;
+    transform: scale(0.9);
+
+
+}
+.viewcollection{
+    margin: 10px 60px 0 140px;
+    padding: 8px;
+    border: 1px solid #4f3267;
+    border-radius: 2px;
+    
+}
+
+.prodContain2{
+    margin: auto;
+    margin-top: 40px;
+    width: 90%;
+
+    padding: 10px;
+    display: grid;
+    grid-template-columns:repeat(2,1fr); 
+    grid-gap:20px 20px;
+       /* grid-template-rows: repeat(2,1fr); */
+
+}
+
+.oldGold{
+    display: flex;
+    background-color: rgb(247, 240, 238);
+}
+
+
+.oldGold2{
+    display: grid;
+    background-color: rgb(247, 240, 238);
+}
