@@ -16,6 +16,7 @@ import d2 from '../../assests/img/2X2.jpg'
 import d3 from '../../assests/img/2x3.gif'
 import d4 from '../../assests/img/2x4.jpg'
 import d6 from '../../assests/img/OLD-GOLD_.png'
+import tan from '../../assests/img/d3.png'
 import './content.css'
 
 
@@ -69,26 +70,44 @@ const Content = () => {
       </div>
 
       <div className='oldGold'>
-        <div><img src={d6} alt=""/></div>
+        <div style={{marginLeft:'11%'}}><img src={d6} alt=""/></div>
         <div className='oldGold2'>
-          <div><h2>Rani soni Alka didi</h2></div>
-          <div>
+          <div className='txtdiv'><h2>Your precious gold. Our new designs!</h2></div>
+          <hr style={{width:'130px', height:'3px' ,    background: 'linear-gradient(to left,#8263e5,#e553ed)'}}/>
+          <div  className='txtdiv2'>
             <ul>
               <li>
-              - A Gold Exchange Program that lets you preserve your memories and make new ones! 
-               Please note: The old gold doesn’t have to be from only CaratLane, it can be any gold jewellery you have. 
+              - A Gold Exchange Program that lets you preserve your memories and  
+              <li>make new ones! Please note: The old gold doesn’t have to be from only</li>
+              <li> CaratLane, it can be any gold jewellery you have. </li>
               </li>
             </ul>
             </div>
           <div>
-            <button>Know More</button>
+            <button style={{width:'40%' ,color:'white',border:'none', marginBottom:'5%' ,padding:'12px' , borderRadius:'5px' ,background: 'linear-gradient(to left,#8263e5,#e553ed)'}}>Know More</button>
           </div>
         </div>
       </div>
 
+      {/* ------------------------ */}
+
+      <div className='bluediv'>
+        <div style={{margin:' auto', width: 'fit-content'}}>
+          <img src={tan} alt="cggc"/>
+          <p style={{color:'white',textAlign:'center',fontSize:'1.2rem'}}>The highest quality of craftsmanship and innovation,<br/> that brings you modern, everyday designs.</p>
+
+          <button className='btn-gradient-1'>Know More</button>
+        </div>
+     
+      </div>
+
+    
+    
 
     </>
   )
 }
 
 export default Content
+
+
